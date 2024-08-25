@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
 import pruebaApi from "../api/pruebaApi";
 import { AuthContext } from "../context/AuthContext";
 import "../assets/Login.css";
